@@ -1,0 +1,23 @@
+@import "_variables";
+
+h2{
+  color : $bg;
+}
+
+.box {
+  margin-top: 20px;
+  &:hover{
+    background-color: orange;
+  }
+
+  h2{
+    color : blue;
+    &:hover {
+      color : red;
+    }
+  }
+  button{
+    font-size: 20px;
+    background : green;
+  }
+}
